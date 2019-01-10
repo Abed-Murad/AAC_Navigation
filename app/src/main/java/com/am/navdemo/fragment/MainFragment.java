@@ -75,6 +75,7 @@ public class MainFragment extends Fragment {
                 MainFragmentDirections.ActionMainToSecond action = MainFragmentDirections.actionMainToSecond();
                 action.setMessage(message);
                 Navigation.findNavController(view).navigate(action);
+
             }
         });
 
